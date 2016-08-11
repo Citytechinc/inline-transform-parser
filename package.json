@@ -1,0 +1,23 @@
+{
+  "name": "inline-transform-parser",
+  "version": "0.0.1",
+  "description": "Take the transform css property and manipulate each transform type and then write it back to a string. ",
+  "main": "index.bundled.js",
+  "repository" : "https://github.com/Citytechinc/inline-transform-parser",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ICF|OLSON",
+  "license": "MIT"
+}
