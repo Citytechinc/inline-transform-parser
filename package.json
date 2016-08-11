@@ -1,6 +1,6 @@
 {
   "name": "inline-transform-parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Take the transform css property and manipulate each transform type and then write it back to a string. ",
   "main": "bin/index.bundled.js",
   "repository": "https://github.com/Citytechinc/inline-transform-parser",
