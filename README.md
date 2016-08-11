@@ -27,8 +27,11 @@ transformParser.transform3d.z.value = 0;
 el.style.transform = transformParser.stringify();
 
 /*
-    // Result 
+    // Result
     <div class="myEl" style="transform: transform3d( 52.5px, 100.89px, 0px ) rotate(30deg)"></div>
 */
 
 ```
+### Helpful info
+ - You can update any transform type on the element you feed the parser. So if you needed to you can change the rotation and any other property you wish.
+ - Each transform type will have its value as an object of key value pairs. In the example above you see each key for transform3d has a value and unit both of which you can change. 
